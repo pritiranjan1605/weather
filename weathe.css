@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    height: 512spx;
+    width: 70vw;
+    padding: 5px;
+}
+.center {
+    display: flex;
+    width: 50vw;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: static;
+    align-items: center;
+    right: -146px;
+    justify-content: space-evenly;
+}
+
+.days {
+    width: 20%;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.firstchld{
+    width: 100vw;
+    height: 200px;
+    border: 2px solid;
+    color: black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px solidblack;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nab{
+    display: flex;
+    border: 2px solid black;
+    width: 820px;
+    position: absolute;
+    top:30px;
+}
+.next{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#detailhere{
+    width: 80vw;
+    height:50px;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    border: none;
+    
+}
+@media (max-width: 700px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: aqua;
+        position: relative;
+    }
+    .main .center{
+        align-self: center;
+        height: 190px;
+        /* position: inherit; */
+        justify-content: space-around;
+    }
+    .days{
+        width: 23%;
+        height: 180px;
+    }
+    .nab{
+        position: absolute;
+        width: 188px;
+    }
+    #detailhere{
+        width: 21vw;
+    }
+    .next{
+        position: relative;
+        top: 40px;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+    
+
